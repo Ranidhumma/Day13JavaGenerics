@@ -29,7 +29,7 @@ public class Maximum {
 	}
 
 	public static void printMax(Integer x, Integer y, Integer z, Integer max) {
-		System.out.printf("The Maximum value is: " + max);
+		System.out.printf("The Maximum value is : " + max);
 	}
 
 }
