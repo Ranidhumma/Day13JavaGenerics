@@ -1,22 +1,20 @@
 package com.java;
 
-public class Maximum {
+public class Maximum<T extends Comparable<T>> {
 
-	int x, y, z;
+	T x, y, z;
 
 	/* created constructor */
 
-	public Maximum(int x, int y, int z) {
+	public Maximum(T x, T y, T z) {
 		this.x = x;
 		this.y = y;
 		this.z = z;
 	}
 
-	/* checking max value of three Integer */
+	public static <T extends Comparable<T>> T testMaximum(T x, T y, T z) {
 
-	public static Integer testMaximum(Integer x, Integer y, Integer z) {
-
-		Integer max = x;
+		T max = x;
 
 		if (y.compareTo(max) > 0)
 			max = y;
@@ -28,8 +26,9 @@ public class Maximum {
 
 	}
 
-	public static void printMax(Integer x, Integer y, Integer z, Integer max) {
-		System.out.printf("The Maximum value is: " + max);
+	public static <T> void printMax(T x, T y, T z, T max) {
+		System.out.printf("The Maximum Value is \n " + max);
+		System.out.println();
 	}
 
 }
