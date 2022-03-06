@@ -14,9 +14,9 @@ public class Maximum {
 
 	/* checking max value of three Integer */
 
-	public static Integer testMaximum(Integer x, Integer y, Integer z) {
+	public static Float testMaximum(Float x, Float y, Float z) {
 
-		Integer max = x;
+		Float max = x;
 
 		if (y.compareTo(max) > 0)
 			max = y;
@@ -28,7 +28,7 @@ public class Maximum {
 
 	}
 
-	public static void printMax(Integer x, Integer y, Integer z, Integer max) {
+	public static void printMax(Float x, Float y, Float z, Float max) {
 		System.out.printf("The Maximum value is: " + max);
 	}
 
