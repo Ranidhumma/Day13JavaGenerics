@@ -7,6 +7,7 @@ public class Main {
 		System.out.println("Welcome");
 		Integer x = 5, y = 15, z = 3;
 		Maximum.testMaximum(x, y, z);
+
 	}
 
 }
