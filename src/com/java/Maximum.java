@@ -27,7 +27,7 @@ public class Maximum<T extends Comparable<T>> {
 	}
 
 	public static <T> void printMax(T x, T y, T z, T max) {
-		System.out.printf("The Maximum Value is  \n " + max);
+		System.out.printf("The Maximum Value is \n " + max);
 		System.out.println();
 	}
 
